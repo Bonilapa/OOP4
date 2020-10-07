@@ -1,7 +1,14 @@
 package BankSystem.Client;
 
+/*
+ * Class for privileged clients
+ */
 public class VipClient extends Client implements IMakeClientVip{
 
+    /*
+     * Method makes a usual client a
+     * privileged one
+     */
     @Override
     public void MakeClientVip(Client client) {
 

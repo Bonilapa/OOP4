@@ -1,4 +1,5 @@
 package BankSystem;
+
 /*
  * Class-entry point for a program
  * Created to compile a fixed code

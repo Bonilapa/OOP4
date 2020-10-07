@@ -9,9 +9,26 @@ import java.util.List;
  */
 public class Bank {
 
+    /*
+     * Field to store the name of
+     * the bank
+     */
     protected String name;
+
+    /*
+     * Field to store total amount
+     * of money on all accounts
+     */
     protected int totalAmountOfMoney;
+
+    /*
+     * List of clients of the bank
+     */
     protected List<Client> Clients;
+
+    /*
+     * List of accounts of the bank
+     */
     protected List<Account> Accounts;
 
     /*
